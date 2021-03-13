@@ -9,6 +9,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="index.css">
   <title>Frontend Mentor | Ping coming soon page</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com"> 
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -24,17 +26,16 @@
 </head>
 
 <body>
+  <div class="position">
+    <div> 
+      <img src="images/logo.svg" alt="Ping Logo" width="87" height="22" style="margin: 45px">
+    </div>
 
-  <!-- 'div' is a dividing element -->
-  <!-- 'div' also has a 'class' - bit like a catergory. Bit like global variable in JS, see example below-->
-  <!-- define class per element to have speccificity -->
-  <div class="page-content">
-    <div>
-      <img src="images/logo.svg" alt="Ping Logo" width="96" height="30" class="centre">
-    </div>
-    <div>
-      We are launching soon!
-    </div>
+    <div >
+      <span class="font-libre-300">We are launching</span> 
+      <span class="font-libre-600"> soon!</span> 
+    </div> 
+
     <div>
       Subscribe and get notified
     </div>
@@ -45,13 +46,12 @@
       <button type="button">Notify Me</button>
     </div>
     <div>
-      <img src="images/illustration-dashboard.png" alt="Ilusstration of Dashboard" width="650" height="400"
-        class="centre">
+      <img src="images/illustration-dashboard.png" alt="Ilusstration of Dashboard" width="650" height="400">
     </div>
     <div>
-      <img src="images/facebook.png" alt="facebook" width="40" height="40" class="centre">
-      <img src="images/twitter.png" alt="twitter" width="40" height="40" class="centre">
-      <img src="images/instagram.png" alt="instagram" width="40" height="40" class="centre">
+      <img src="images/facebook.png" alt="facebook" width="40" height="40">
+      <img src="images/twitter.png" alt="twitter" width="40" height="40">
+      <img src="images/instagram.png" alt="instagram" width="40" height="40">
     </div>
     <p></p>
     <div>
@@ -60,7 +60,7 @@
     <footer>
       <p class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded by <a href="#">MazOneTwoOne</a>.
+        Coded by <a href="#">MazOneTwoOne & kbberker</a>.
       </p>
     </footer>
   </div>

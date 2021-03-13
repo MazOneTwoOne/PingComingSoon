@@ -1,13 +1,22 @@
-.centre {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-
-
-.page-content {
+.position {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.font-libre-300 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  color:hsl(0, 0%, 59%)
+}
+
+
+.font-libre-600 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
 }
