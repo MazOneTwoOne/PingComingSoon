@@ -6,7 +6,6 @@
   flex-wrap: wrap;
 }
 
-
 .font-libre-300 {
   font-family: 'Libre Franklin', sans-serif;
   font-weight: 300;
@@ -14,9 +13,42 @@
   color:hsl(0, 0%, 59%)
 }
 
+.font-libre-3002 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  color:hsl(0, 0%, 59%)
+}
+
+.form-control {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 300;
+  font-size: 11px;
+  color:hsl(0, 0%, 59%)
+}
+
+.button {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 600;
+  font-size: 11px;
+  color: white;  
+  background-color: hsl(228, 45%, 44%);
+  border: none;
+  padding: 1em;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+}
 
 .font-libre-600 {
   font-family: 'Libre Franklin', sans-serif;
   font-weight: 600;
   font-size: 30px;
+}
+
+.attribution{
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 300;
+  font-size: 8px;
+  color:hsl(0, 0%, 59%)
 }
