@@ -1,3 +1,7 @@
+html {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
 .position {
   display: flex;
   flex-direction: column;
@@ -7,33 +11,34 @@
 }
 
 .font-libre-300 {
-  font-family: 'Libre Franklin', sans-serif;
   font-weight: 300;
-  font-size: 30px;
+  font-size: 33px;
   color:hsl(0, 0%, 59%)
 }
 
 .font-libre-3002 {
-  font-family: 'Libre Franklin', sans-serif;
   font-weight: 300;
-  font-size: 15px;
-  color:hsl(0, 0%, 59%)
+  font-size: 14px;
 }
 
 .form-control {
-  font-family: 'Libre Franklin', sans-serif;
   font-weight: 300;
   font-size: 11px;
-  color:hsl(0, 0%, 59%)
+  outline: none;
+  border-radius: 45px;
+  padding: 1em;
+  text-decoration: none;
+  text-align: left;
+  display: inline-block;
 }
 
 .button {
-  font-family: 'Libre Franklin', sans-serif;
   font-weight: 600;
   font-size: 11px;
   color: white;  
-  background-color: hsl(228, 45%, 44%);
+  background-color: hsla(228, 100%, 68.75%, 1);
   border: none;
+  border-radius: 45px;
   padding: 1em;
   text-decoration: none;
   text-align: center;
@@ -41,13 +46,11 @@
 }
 
 .font-libre-600 {
-  font-family: 'Libre Franklin', sans-serif;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 33px;
 }
 
 .attribution{
-  font-family: 'Libre Franklin', sans-serif;
   font-weight: 300;
   font-size: 8px;
   color:hsl(0, 0%, 59%)

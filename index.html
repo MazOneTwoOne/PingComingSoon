@@ -11,14 +11,18 @@
   <title>Frontend Mentor | Ping coming soon page</title>
   <link rel="preconnect" href="https://fonts.gstatic.com"> 
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style></style>
+  <script src="emailValidation.js"></script>
+  <style>
+    .button {width: 130px;}
+    .form-control {
+      width: 255px;
+    }
+  </style>
 </head>
 <body>
   <div class="position">
     <div> 
-      <img src="images/logo.svg" alt="Ping Logo" width="82" height="17" style="margin: 41px">
+      <img src="images/logo.svg" alt="Ping Logo" width="60" style="margin: 30px; margin-top: 60px;">
     </div>
     <div>
       <span class="font-libre-300">We are launching </span> 
@@ -28,18 +32,18 @@
       Subscribe and get notified
     </div>
     <div>
-      <span class="form-control"> <input type="text" class="form-control" placeholder="Your email address..."> </span>
-      <span class="button"> <input type="button" value="Notify Me"> </span>
+      <input type="email" class="form-control" placeholder="  Your email address..." style="margin: 0.5em;">
+      <input type="button" value="Notify Me" class="button">
     </div>
     <p></p>
     <div>
-      <img src="images/illustration-dashboard.png" alt="Ilusstration of Dashboard" width="400" height="250">
+      <img src="images/illustration-dashboard.png" alt="Ilusstration of Dashboard" width="435" style="margin-top: 15px;">
     </div>
     <p></p>
     <div style="margin: 15px";> 
-      <img src="images/facebook.png" alt="facebook" width="20" height="20">
-      <img src="images/twitter.png" alt="twitter" width="20" height="20">
-      <img src="images/instagram.png" alt="instagram" width="20" height="20">
+      <img src="images/facebook.png" alt="facebook" width="23">
+      <img src="images/twitter.png" alt="twitter" width="23">
+      <img src="images/instagram.png" alt="instagram" width="23">
     </div>
     <div class="attribution">
       &copy; Copyright Ping. All rights reserved.
@@ -51,5 +55,4 @@
     </footer>
   </div>
 </body>
-
 </html>
