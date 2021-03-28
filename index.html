@@ -14,9 +14,8 @@
   <script src="emailValidation.js"></script>
   <style>
     .button {width: 130px;}
-    .form-control {
-      width: 255px;
-    }
+    .button:hover {background-color: rgb(125, 146, 227);}
+    .form-control {width: 255px;}
   </style>
 </head>
 <body>
@@ -31,9 +30,12 @@
     <div class="font-libre-3002" style="margin: 12px">
       Subscribe and get notified
     </div>
-    <div>
-      <input type="email" class="form-control" placeholder="  Your email address..." style="margin: 0.5em;">
-      <input type="button" value="Notify Me" class="button">
+    <div id="newText">
+      <input id="subscribe-email" required="required" type="email" placeholder="  Your email address..." class="form-control" style="margin: 0.5em;">
+      <input id="subscribe-submit" type="submit" onClick="check()" value="Notify Me" class="button">  <!-- onClick activates 'check()' function. -->
+    </div>
+    <div id="hiddenText" class="hiddenText">
+      Please provide a valid email address
     </div>
     <p></p>
     <div>

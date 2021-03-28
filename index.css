@@ -1,8 +1,10 @@
 html {
   font-family: 'Libre Franklin', sans-serif;
+  font-weight: 300;
 }
 
-.position {
+/* This is for logo postion */
+.position {   
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -13,18 +15,31 @@ html {
 .font-libre-300 {
   font-weight: 300;
   font-size: 33px;
+  font-style: normal;
   color:hsl(0, 0%, 59%)
 }
 
 .font-libre-3002 {
   font-weight: 300;
   font-size: 14px;
+
+}
+
+.font-libre-600 {
+  font-weight: 600;
+  font-size: 33px;
+}
+
+.attribution{
+  font-weight: 300;
+  font-size: 8px;
+  color:hsl(0, 0%, 59%)
 }
 
 .form-control {
   font-weight: 300;
   font-size: 11px;
-  outline: none;
+  border:  0.5px solid  hsla(228, 100%, 68.75%, 0.42);
   border-radius: 45px;
   padding: 1em;
   text-decoration: none;
@@ -45,13 +60,10 @@ html {
   display: inline-block;
 }
 
-.font-libre-600 {
-  font-weight: 600;
-  font-size: 33px;
-}
-
-.attribution{
-  font-weight: 300;
-  font-size: 8px;
-  color:hsl(0, 0%, 59%)
+.hiddenText {
+  font-size: 8px; 
+  font-style: italic; 
+  color: red; 
+  margin-left: -243px;
+  display: none;
 }
