@@ -3,8 +3,7 @@ html {
   font-weight: 300;
 }
 
-/* This is for logo postion */
-.position {   
+.page-flexbox {   
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -12,28 +11,28 @@ html {
   flex-wrap: wrap;
 }
 
-.font-libre-300 {
+.logo {
+  margin: 30px;
+  margin-top: 60px;
+  width: 60px; 
+}
+
+.heading {
   font-weight: 300;
   font-size: 33px;
   font-style: normal;
   color:hsl(0, 0%, 59%)
 }
 
-.font-libre-3002 {
-  font-weight: 300;
-  font-size: 14px;
-
-}
-
-.font-libre-600 {
+.heading-bold {
   font-weight: 600;
   font-size: 33px;
 }
 
-.attribution{
+.sub-heading {
   font-weight: 300;
-  font-size: 8px;
-  color:hsl(0, 0%, 59%)
+  font-size: 14px;
+  margin: 12px;
 }
 
 .form-control {
@@ -45,6 +44,8 @@ html {
   text-decoration: none;
   text-align: left;
   display: inline-block;
+  width: 255px;
+  margin: 0.5em;
 }
 
 .button {
@@ -58,6 +59,11 @@ html {
   text-decoration: none;
   text-align: center;
   display: inline-block;
+  width: 130px;
+}
+
+.button:hover {
+  background-color: rgb(125, 146, 227);
 }
 
 .hiddenText {
@@ -66,4 +72,18 @@ html {
   color: red; 
   margin-left: -243px;
   display: none;
+}
+
+.body-photo {
+  margin-top: 15px;
+}
+
+.social-logo {
+  margin: 15px;
+}
+
+.attribution{
+  font-weight: 300;
+  font-size: 8px;
+  color:hsl(0, 0%, 59%)
 }

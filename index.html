@@ -6,32 +6,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
 
+  <title>Frontend Mentor | Ping coming soon page</title>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="index.css">
-  <title>Frontend Mentor | Ping coming soon page</title>
   <link rel="preconnect" href="https://fonts.gstatic.com"> 
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
   <script src="emailValidation.js"></script>
-  <style>
-    .button {width: 130px;}
-    .button:hover {background-color: rgb(125, 146, 227);}
-    .form-control {width: 255px;}
-  </style>
+  <style></style>
 </head>
 <body>
-  <div class="position">
+  <div class="page-flexbox">
     <div> 
-      <img src="images/logo.svg" alt="Ping Logo" width="60" style="margin: 30px; margin-top: 60px;">
+      <img src="images/logo.svg" alt="Ping Logo" class="logo">
     </div>
     <div>
-      <span class="font-libre-300">We are launching </span> 
-      <span class="font-libre-600"> soon!</span> 
+      <span class="heading">We are launching </span> 
+      <span class="heading-bold"> soon!</span> 
     </div> 
-    <div class="font-libre-3002" style="margin: 12px">
+    <div class="sub-heading">
       Subscribe and get notified
     </div>
     <div id="newText">
-      <input id="subscribe-email" required="required" type="email" placeholder="  Your email address..." class="form-control" style="margin: 0.5em;">
+      <input id="subscribe-email" required="required" type="email" placeholder="  Your email address..." class="form-control">
       <input id="subscribe-submit" type="submit" onClick="check()" value="Notify Me" class="button">  <!-- onClick activates 'check()' function. -->
     </div>
     <div id="hiddenText" class="hiddenText">
@@ -39,10 +35,10 @@
     </div>
     <p></p>
     <div>
-      <img src="images/illustration-dashboard.png" alt="Ilusstration of Dashboard" width="435" style="margin-top: 15px;">
+      <img src="images/illustration-dashboard.png" alt="Ilusstration of Dashboard" width="435" class="body-photo">
     </div>
     <p></p>
-    <div style="margin: 15px";> 
+    <div class="social-logo"> 
       <img src="images/facebook.png" alt="facebook" width="23">
       <img src="images/twitter.png" alt="twitter" width="23">
       <img src="images/instagram.png" alt="instagram" width="23">
