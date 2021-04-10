@@ -15,11 +15,11 @@ function check() {
 };
 
 function showText(x) {
-  return x.style.display = "block";
+  return x.style.visibility = "visible";
 };
 
 function hideText(x){
-  return x.style.display = "none";
+  return x.style.visibility = "hidden";
 };
 
 // This was used to create a new paragraph
