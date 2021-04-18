@@ -84,8 +84,34 @@ html {
   margin: 15px;
 }
 
+.facebook {
+  width: 23px;
+}
+
+.twitter {
+  width: 23px;
+}
+
+.instagram {
+  width: 23px;
+}
 .attribution{
   font-weight: 300;
   font-size: 8px;
   color:hsl(0, 0%, 59%)
+}
+
+
+@media screen and (max-width: 507px) {
+  .heading {font-size: 22px;}
+  .heading-bold {font-size: 22px;}
+  .sub-heading {font-size: 11px;}
+  .flex-on-buttons {display:flex; flex-direction: column; align-items: center;}
+  .form-control {text-indent: 10px;}
+  .button {width: 278px;}
+  .hiddenText {display: flex; margin-left: unset;}
+  .body-photo {width: 300px;}
+  .facebook {width: 30px;}
+  .twitter {width: 30px;}
+  .instagram {width: 30px;}
 }
