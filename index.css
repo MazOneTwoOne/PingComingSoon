@@ -35,6 +35,11 @@ html {
   margin: 12px;
 }
 
+.grid-on-buttons {  
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
 .form-control {
   font-weight: 300;
   font-size: 11px;
@@ -60,6 +65,7 @@ html {
   text-align: center;
   display: inline-block;
   width: 130px;
+  margin: 0.5em;
 }
 
 .button:hover {
@@ -71,17 +77,20 @@ html {
   font-style: italic; 
   color: red; 
   display: inline;
-  margin-left: -243px;
   visibility: hidden;  
+  grid-column: 1/2;
+  grid-row: 2/3;
+  margin-left: 20px;
 }
 
 .body-photo {
-  margin-top: 15px;
+  margin-top: 30px;
   width: 435px; 
 }
 
 .social-logo {
-  margin: 15px;
+  margin-top: 40px;
+  margin-bottom: 15px;
 }
 
 .facebook {
@@ -106,7 +115,7 @@ html {
   .heading {font-size: 22px;}
   .heading-bold {font-size: 22px;}
   .sub-heading {font-size: 11px;}
-  .flex-on-buttons {display:flex; flex-direction: column; align-items: center;}
+  .grid-on-buttons {display:flex; flex-direction: column; align-items: center;}
   .form-control {text-indent: 10px;}
   .button {width: 278px;}
   .hiddenText {display: flex; margin-left: unset;}
