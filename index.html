@@ -1,58 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
 
-  <title>Frontend Mentor | Ping coming soon page</title>
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="index.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com"> 
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
-  <script src="emailValidation.js"></script>
-  <style></style>
-</head>
-<body>
-  <div class="page-flexbox">
-    <div> 
-      <img src="images/logo.svg" alt="Ping Logo" class="logo">
-    </div>
-    <div>
-      <span class="heading">We are launching </span> 
-      <span class="heading-bold"> soon!</span> 
-    </div> 
-    <div class="sub-heading">
+    <title>Frontend Mentor | Ping coming soon page</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+    <script src="emailValidation.js"></script>
+    <style></style>
+  </head>
+  <body>
+    <div class="page-flexbox">
+      <div>
+        <img src="images/logo.svg" alt="Ping Logo" class="logo">
+      </div>
+      <div>
+        <span class="heading">We are launching </span>
+        <span class="heading-bold"> soon!</span>
+      </div>
+      <div class="sub-heading">
       Subscribe and get notified
     </div>
-    <div class="grid-on-buttons">
-      <div>
-        <input id="subscribe-email" required="required" type="email" placeholder="  Your email address..." class="form-control">
-      </div>  
-      <div id="hiddenText" class="hiddenText">
+      <div class="grid-on-buttons">
+        <div>
+          <input id="subscribe-email" required="required" type="email" placeholder="  Your email address..." class="form-control">
+        </div>
+        <div id="hiddenText" class="hiddenText">
           Please provide a valid email address
       </div>
-      <div>
-        <input id="subscribe-submit" type="submit" onClick="check()" value="Notify Me" class="button">  <!-- onClick activates 'check()' function. -->
+        <div>
+          <input id="subscribe-submit" type="submit" onClick="check()" value="Notify Me" class="button">
+          <!-- onClick activates 'check()' function. -->
+        </div>
       </div>
-    </div>    
-    <div>
-      <img src="images/illustration-dashboard.png" alt="Ilusstration of Dashboard" class="body-photo">
-    </div>
-    <div class="social-logo"> 
-      <img src="images/facebook.png" alt="facebook" class="facebook">
-      <img src="images/twitter.png" alt="twitter" class="twitter">
-      <img src="images/instagram.png" alt="instagram" class="instagram">
-    </div>
-    <div class="attribution">
+      <div>
+        <img src="images/illustration-dashboard.png" alt="Ilusstration of Dashboard" class="body-photo">
+      </div>
+      <div class="social-logo">
+        <a href="https://www.facebook.com" target="_blank">
+          <img src="images/facebook.png" alt="facebook" class="facebook"></a>
+        <a href="https://www.twitter.com" target="_blank">
+          <img src="images/twitter.png" alt="twitter" class="twitter"></a>
+        <a href="https://www.instagram.com" target="_blank">
+          <img src="images/instagram.png" alt="instagram" class="instagram"></a>
+      </div>
+      <div class="attribution">
       &copy; Copyright Ping. All rights reserved.
     </div>
-    <footer class="attribution">
-      <p></p>
+      <footer class="attribution">
+        <p></p>
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded by <a href="https://github.com/MazOneTwoOne">MazOneTwoOne & kbberker</a>.
+        Coded by <a href="https://github.com/MazOneTwoOne">MazOneTwoOne</a>.
     </footer>
-  </div>
-</body>
+    </div>
+  </body>
 </html>
